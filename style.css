@@ -1,0 +1,88 @@
+.logo {
+    height: 60px;
+    width: 200px;
+}
+
+.navbar {
+    background-color: aqua !important;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.fa-cart-arrow-down,
+.fa-user-circle,
+.fa-truck,
+.fa-headphones,
+.fa-thumbs-up {
+    font-size: 32px!important;
+    color: lightseagreen;
+}
+
+.cart1,
+.cart2,
+.cart3 {
+    display: flex;
+    width: 300px;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 1px 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.maincart {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .cart1,
+    .cart2,
+    .cart3 {
+        width: 100%;
+    }
+}
+
+.card {
+    height: auto !important;
+    width: auto !important;
+    margin-bottom: 5px;
+}
+
+.newarrivals {
+    margin-top: 50px;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: aqua;
+    color: black;
+}
+
+.newarrivalsh1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 30px !important;
+    text-shadow: 2px 2px 4px aqua;
+}
+
+.footer {
+    width: 100%;
+    background-color: aqua;
+    height: 380px;
+}
+
+.footer>div {
+    text-align: center;
+}
+
+.footer>h1 {
+    font-weight: bold;
+}
